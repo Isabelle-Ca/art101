@@ -1,26 +1,98 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+/* Lucy's and Isabelle's Lab 2: HTML and CSS Starter --> */
+body {
+    font-family: 'Bakbak One';font-size: 22px; color: #c1cdaf;
+    background-color: #FEFAE0;
   }
-h1 {
-    color: purple;
-    font-size: 200%;
-}
-p {
-    font-family: "comic sans";
-    text-indent: 20px;
+  h1 {  
+    color: #F29559;
+    font-size: 400% ;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-bottom: dotted;
+    border-width: 20px;
+    border-color: #FEFAE0
+  }
+  p {
+    text-indent: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  #content {
+    background-color: #606c38;
+    background-color: #606c38;
+    margin: 1px;
+  }
+  .silly {
+    display: flex;
+    background-color: #606c38;
     margin-left: 10px;
-}
-#content {
-    background-color: #cccccc;
-    width: 500px;
-    min-height: 300px;
-    padding: 10px;
-    border: solid 1px #444444;
-    font-size: 20px;
-}
+    margin-right: 1px;
+  }
+  .catlaptop {
+    float: left;
+    margin-right: 10px;
+  }
+  #grey {
+    position: relative;
+    height: 520px;
+    width: 300px;
+    margin-bottom: 1px;
+  }
+  #grey img {
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    animation-name: pet;
+    animation-duration: 13s;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+  }
+  @keyframes pet {
+    0%   {left: 0px;}
+    2.5%   {left: 30px;}
+    5%  {left: 60px;}
+    7.5%  {left: 90px;}
+    10%  {left: 120px;}
+    12.5%  {left: 150px;}
+    15%  {left: 180px;}
+    17.5%  {left: 210px;}
+    20%  {left: 240px;}
+    22.5%  {left: 270px;}
+    25%  {left: 300px;}
+    27.5%  {left: 330px;}
+    30%  {left: 360px;}
+    32.5%  {left: 390px;}
+    35%  {left: 420px;}
+    37.5%  {left: 450px;}
+    40%  {left: 480px;}
+    42.5%  {left: 510px;}
+    45%  {left: 540px;}
+    47.5%  {left: 570px;}
+    50% {left: 600px;}
+    52.5% {left: 630px;}
+    55% {left: 660px;}
+    57.5% {left: 690px;}
+    60% {left: 720px;}
+    62.5% {left: 750px;}
+    65% {left: 780px;}
+    67.5% {left: 810px;}
+    70% {left: 840px;}
+    72.5% {left: 870px;}
+    75% {left: 900px;}
+    77.5% {left: 930px;}
+    80% {left: 960px;}
+    82.5% {left: 990px;}
+    85% {left: 1020px;}
+    87.5% {left: 1050px;}
+    90% {left: 1080px;}
+    92.5% {left: 1110px;}
+    95% {left: 1140px;}
+    97.5% {left: 1170px;}
+    100% {left: 1200px;}
+  
+  }
+  
