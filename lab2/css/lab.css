@@ -51,6 +51,10 @@ body {
     animation-direction: forwards;
     animation-iteration-count: infinite;
   }
+  .coffee {
+    float: right;
+    margin-right: 80px;
+  }
   @keyframes pet {
     0%   {left: 0px;}
     2.5%   {left: 30px;}
