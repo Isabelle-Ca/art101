@@ -36,6 +36,10 @@ body {
     float: left;
     margin-right: 10px;
   }
+  .coffee {
+    float: right;
+    margin-right: 80px;
+  }
   #grey {
     position: relative;
     height: 520px;
@@ -50,10 +54,6 @@ body {
     animation-duration: 13s;
     animation-direction: forwards;
     animation-iteration-count: infinite;
-  }
-  .coffee {
-    float: right;
-    margin-right: 80px;
   }
   @keyframes pet {
     0%   {left: 0px;}
