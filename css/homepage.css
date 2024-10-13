@@ -4,3 +4,7 @@
   margin: 90px;
   max-width: 500px;
 }
+h1, h2 {
+  font-style: arial black;
+  font-style: bold;
+}
