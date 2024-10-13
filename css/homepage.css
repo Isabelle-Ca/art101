@@ -1,10 +1,35 @@
 /* this css file will only style the homepage of our site */
 
 .self-photo {
-  margin: 90px;
+  margin-right: 10px;
   max-width: 500px;
+  float: left;
+  margin-right: 10px;
 }
-h1, h2 {
-  font-style: arial black;
+
+h1 {
+  font-family: fantasy;
+  color: black;
   font-style: bold;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: arial black;
+  font-style: bold;
+}
+
+p{
+  font-size: 20px;
+}
+
+#content{
+  background-color: blanchedalmond;
+}
+
+.minor-section{
+  background-color: white;
+  width: 83%;
+  margin-left:auto;
 }
