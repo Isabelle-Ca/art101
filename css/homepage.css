@@ -1,5 +1,7 @@
 /* this css file will only style the homepage of our site */
-
+body{
+  background-color: light blue;
+}
 .self-photo {
   margin-right: 10px;
   max-width: 500px;
@@ -8,7 +10,7 @@
 }
 
 h1 {
-  font-family: fantasy;
+  font-family: serif;
   color: black;
   font-style: bold;
   text-align: center;

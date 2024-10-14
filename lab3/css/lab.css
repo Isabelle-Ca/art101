@@ -7,3 +7,23 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+h1{
+  font-family: serif;
+  color: black;
+  font-style: bold;
+  text-align: center;
+  font-size: 60px;
+}
+h2{
+  font-family: arial black;
+  font-style: bold;
+}
+p{
+  font-size: 20px;
+}
+.minor-section{
+  background-color: white;
+}
+#content{
+  background-color: blanchedalmond;
+}
