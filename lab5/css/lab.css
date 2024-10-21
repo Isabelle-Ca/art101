@@ -5,5 +5,18 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: rgb(255, 253, 240);
+    font-family: serif;
   }
+h1{
+    font-family: serif;
+    font-size: 60px;
+    font-style: bold;
+    text-align: center;
+  }
+#content {
+    background-color: rgb(219, 185, 250);
+}
+body {
+    background-color: white;
+}
