@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 6: Arrays and Objects
+// Author: Isabelle Carrou
+// Date: October 24, 2024
 
 // Constants
 
@@ -19,3 +19,19 @@ function main() {
 
 // let's get this party started
 main();
+
+myTransport = ["car", "bus"];
+
+myMainRide = {
+  make: "Honda",
+  model: "Accord",
+  color: "gold",
+  year: 2003,
+  age: function() { 
+    return 2024 - this.year;
+    }
+  }
+//output
+document.writeln("Kinds of transportation I use:", myTransport, "</br>");
+document.writeln("My Main Ride: <pre>", 
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");

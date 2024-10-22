@@ -7,3 +7,18 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+h1{
+    font-family: serif;
+    font-size: 60px;
+    font-style: bold;
+    text-align: center;
+  }
+#content {
+    background-color: rgb(175, 248, 226);
+}
+body {
+    background-color: white;
+}
+.moveimg {
+    float: right;
+}
