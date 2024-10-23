@@ -5,7 +5,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: #f8f4e6;
   }
 h1{
     font-family: serif;
@@ -14,7 +14,7 @@ h1{
     text-align: center;
   }
 #content {
-    background-color: rgb(175, 248, 226);
+    background-color: rgb(115, 187, 235);
 }
 body {
     background-color: white;
