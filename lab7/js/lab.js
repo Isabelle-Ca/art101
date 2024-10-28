@@ -37,5 +37,5 @@ function sortUsername() {
 }
 
 //output
-document.writeln("Look! I fixed your name: ",
+document.writeln ("Look! I fixed your name: ",
     sortUsername(), "</br>");

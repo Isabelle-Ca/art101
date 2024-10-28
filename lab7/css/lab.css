@@ -14,8 +14,21 @@ h1{
     text-align: center;
   }
 #content {
-    background-color: rgb(115, 187, 235);
+    background-color: light blue;
 }
 body {
-    background-color: white;
+    background-color: blanchedalmond;
+}
+.style2 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #f8f4e6;
+    font-style: bold;
+    text-align: center;
+}
+.style {
+    font-style: bold;
+    text-align: center;
+    color: blue;
 }
