@@ -1,0 +1,16 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+h1{
+  font-family: serif;
+  font-size: 60px;
+  font-style: bold;
+  text-align: center;
+}
+body{
+    background-color: rgb(135, 161, 137);
+}
