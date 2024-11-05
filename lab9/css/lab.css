@@ -2,24 +2,40 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: rgb(255, 236, 202);
 }
 
 div {
     padding: 20px;
     margin: 20px;
-    background-color: white;
+    background-color: rgb(250, 250, 236);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .special {
-    background-color: lavender;
-    border: dotted 50px red;
-    color: pink;
+    background-color: rgb(222, 222, 252);
+    border: dotted 50px rgb(255, 134, 134);
+    color: rgb(252, 162, 177);
     font-weight: bold;
 }
-
+h1{
+    text-align: center;
+    font-style: bold;
+    font-family: serif;
+    font-size: 60px;
+}
 h2 {
     margin-bottom: 10px;
 }
+
+#challenge{
+    background-color: light grey;
+}
+#problems{
+    background-color: light grey;
+}
+#results{
+    background-color: light grey;
+}
+
