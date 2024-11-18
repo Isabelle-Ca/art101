@@ -7,36 +7,46 @@
    Author: Isabelle Carrou
    Date: October 18, 2024
 */
-function fizzBuzz() {
-    let oneLongString = "FizzBuzzBoom!";
+$(document).ready(function() {
+    // Example: Add content dynamically to the output div
+    $('#output').text("The output will be displayed here.");
+    
+    // Example: Event to update results
+    $('#results').on('click', function() {
+        $('#output').html("<p>The results section was clicked!</p>");
+    });
+});
 
-    // Loop through numbers 1 to 200
-    for (let i=1; i<= 200; i++) {
-        let str = "";
+$(document).ready(function() {
+    function fizzBuzz() {
+        let oneLongString = '';  // String to hold all the results
 
-        // multiple of 3
-        if (i%3 === 0) {
-            str += "Fizz";
-        }
-        //multiple of 5
-        if (i%5 === 0) {
-            str += "Buzz";
-        }
-        //multiple of 7
-        if (i%7 === 0) {
-            str += "Boom";
+        // Loop from 1 to 200
+        for (let num = 1; num <= 200; num++) {
+            let result = '';
+
+            // Check if the number is a multiple of 3, 5, or 7
+            if (num % 3 === 0) result += 'Fizz';
+            if (num % 5 === 0) result += 'Buzz';
+            if (num % 7 === 0) result += 'Boom';
+
+            // If no match, use the number itself
+            if (result === '') {
+                result = num;
+            }
+
+            // Append the result to the long string with line breaks
+            oneLongString += result + "<br>";
+
+            // Optionally, you can append each result as a new <p> element
+            // This is an alternative approach
+            // $("#output").append("<p>" + result + "</p>");
         }
 
-        // If the string is empty, just append the number
-        if (str === "") {
-            str = num;
-        }
-
-        // Append the result with a line break for display
-        oneLongString += str + "<br>";
+        // Output the full string into the #output div after the loop is complete
+        $("#output").html(oneLongString);
     }
-    $("#output").html(oneLongString);
-}
-fizzBuzz();
 
-  
+    // Call the fizzBuzz function when the document is ready
+    fizzBuzz();
+});
