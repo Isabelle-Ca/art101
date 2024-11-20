@@ -7,19 +7,55 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" type="text/css" href="css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" type="text/css" href="css/project.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="js/lab.js" defer></script>
+    <script src="js/project.js" defer></script>
 </head>
 <body>
-    <div id="pop-up">
+    <div id="myClick" class="box-location">
+        <div class="pop-up-box">
+          <h1>Welcome to the UCSC Music Map!</h1>
+          <p>This is an interactive map of UCSC where you can pin songs you were listening to at specific spots on campus!</p>
+          <h3>How does our site work?</h3>
+          <p>As you explore the map, you will see pins placed in locations all around campus. Each pin represents a song that someone was listening to in that spot. You can add your own pin location and pick a song!</p>
+          <p>Click OK to proceed.</p>
+          <button id="okBtn">OK</button>
+        </div>
+      </div>
+    <div id="main-web">
         <h1>Welcome to the UCSC Music Map!</h1>
-        <h2>This is an interactive map of UCSC where you can pin songs you were listening to at specific spots on campus!</h2>
-        <h3>How does our site work?</h3>
-        <p>As you explore the map, you will see pins placed in locations all around campus. Each pin represents a song that someone was listening to in that spot. You can add your own pin location and pick a song!</p>
-        <!--Add image of slug here-->
-        <h3>Connect with fellow students through the music!</h3>
     </div>
+
+    <section>
+        <!--Image of map in background-->
+        <!--This also needs JS-->
+        <form>
+            <h3>What song do you want to share?</h3>
+            <input type="text" id="myInput" name="userInput">
+            <button>Submit</button>
+        </form>
+        <form id="songForm">
+            <h3>What song do you want to share?</h3>
+            <input type="text" id="myInput" name="userInput" placeholder="Enter song name">
+            <button type="submit">Submit</button>
+          </form>
+        
+          <!-- Section to display search results -->
+          <div id="songResults" style="display: none;">
+            <h3>Songs matching your search:</h3>
+            <ul id="songList">
+              <!-- Song results will appear here -->
+            </ul>
+          </div>
+    <div id="secClick" class="secBox">
+        <div class="music-pop-up">
+            <h2>Here are some songs that came up from your search!</h2>
+        </div>
+    </div>
+
+
+
+    </section>
 
 </body>
 </html>

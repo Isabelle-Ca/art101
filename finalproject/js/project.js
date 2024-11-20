@@ -1,14 +1,19 @@
-// Function to update background position based on mouse movement
-const background = document.getElementById('background');
+//Intro button click//
+var click = document.getElementById('myClick');
 
-window.addEventListener('mousemove', (e) => {
-    const { clientX: mouseX, clientY: mouseY } = e;
-    const { innerWidth: width, innerHeight: height } = window;
+// Get the OK button
+var okButton = document.getElementById('okBtn');
 
-    // Calculate the mouse's position relative to the screen
-    const xPos = (mouseX / width) * 100;
-    const yPos = (mouseY / height) * 100;
+// Get the main content area
+var mainContent = document.getElementById('mainContent');
 
-    // Adjust the background position to create the interactive effect
-    background.style.transform = `translate(-${xPos / 15}%, -${yPos / 15}%)`;
-});
+// When the page loads, display the box
+window.onload = function() {
+  click.style.display = 'flex'; // Show the box
+}
+
+// When the user clicks the "OK" button, hide the box and show the content
+okButton.onclick = function() {
+  click.style.display = 'none'; // Hide the box
+  mainContent.style.display = 'block'; // Show the main content
+}
