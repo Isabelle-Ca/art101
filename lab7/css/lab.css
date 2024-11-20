@@ -23,7 +23,7 @@ div {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #f8f4e6;
+    background-color: rgb(250, 250, 236);
     font-style: bold;
     text-align: center;
 }
