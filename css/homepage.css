@@ -3,8 +3,9 @@
 .self-photo {
   margin-right: 10px;
   max-width: 500px;
-  float: left;
-  margin-right: 10px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 140px;
 }
 
 h2 {
@@ -22,8 +23,6 @@ p{
 
 .minor-section{
   background-color: white;
-  width: 80%;
-  margin-left:auto;
 }
 
 body {
