@@ -5,6 +5,7 @@
 */
 // Using the core $.ajax() method
 // Using the core $.ajax() method to get the latest XKCD comic
+
 $.ajax({
     url: "https://xkcd.com/info.0.json",
     type: "GET",
